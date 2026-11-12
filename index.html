@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Martin Strell</title>
+<meta name="description" content="Martin Strell, product manager in Alameda, California. Projects: Nosh Next, Supplier Resolver and more.">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F4F5F3;
+    --ink: #17202A;
+    --muted: #5E6670;
+    --line: #D9DDE1;
+    --accent: #1D3A5F;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.55 "Schibsted Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 72px 20px 64px; }
+  h1 {
+    font-weight: 700;
+    font-size: clamp(40px, 9vw, 64px);
+    line-height: 1;
+    letter-spacing: -0.03em;
+    margin: 0 0 20px;
+  }
+  .intro { font-size: 20px; line-height: 1.45; max-width: 34em; margin: 0 0 12px; }
+  .links { margin: 0 0 56px; display: flex; gap: 20px; flex-wrap: wrap; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  h2 { font-size: 15px; font-weight: 500; color: var(--muted); margin: 0 0 4px; }
+  .projects { list-style: none; margin: 0; padding: 0; }
+  .projects li { padding: 22px 0; border-top: 1px solid var(--line); }
+  .projects li:last-child { border-bottom: 1px solid var(--line); }
+  .projects h3 { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 4px; }
+  .projects h3 a { color: var(--ink); text-decoration: none; }
+  .projects h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .projects p { margin: 0; color: var(--muted); }
+  .projects .small { font-size: 14px; margin-top: 6px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Martin Strell</h1>
+  <p class="intro">Product manager in Alameda, California. I started as a software engineer and I still build things. Here are the recent ones.</p>
+  <p class="links">
+    <a href="https://www.linkedin.com/in/martin-strell/">LinkedIn</a>
+    <a href="https://github.com/martinstrell-source">GitHub</a>
+  </p>
+
+  <h2>Projects</h2>
+  <ul class="projects">
+    <li>
+      <h3><a href="https://nosh.greatbigfun.com">Nosh Next</a></h3>
+      <p>An iPhone app that finds restaurants matching your taste, near wherever you are. Save places from links, posts and screenshots; diets are treated as rules. In beta on TestFlight.</p>
+    </li>
+    <li>
+      <h3><a href="https://supplier-resolver.onrender.com">Supplier Resolver</a></h3>
+      <p>Groups messy supplier records into the real companies behind them. Entity resolution, the problem at the center of my supplier onboarding work at Infor Nexus.</p>
+    </li>
+    <li>
+      <h3><a href="https://ai-market-pulse.streamlit.app">AI Market Pulse</a></h3>
+      <p>A dashboard that classifies news into market signals.</p>
+      <p class="small">Hosted free; it may take a minute to wake up.</p>
+    </li>
+    <li>
+      <h3><a href="https://adaptive-chinese-flashcards.streamlit.app">Adaptive Chinese Flashcards</a></h3>
+      <p>Mandarin flashcards that adjust to what you get wrong.</p>
+      <p class="small">Hosted free; it may take a minute to wake up.</p>
+    </li>
+  </ul>
+
+  <footer>martinstrell.com</footer>
+</main>
+</body>
+</html>
