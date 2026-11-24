@@ -58,6 +58,7 @@
   .projects p { margin: 0; color: var(--muted); }
   .projects .small { font-size: 14px; margin-top: 6px; }
   .shots { display: flex; gap: 12px; margin-top: 14px; overflow-x: auto; padding-bottom: 4px; }
+  .wide { display: block; width: 100%; max-width: 480px; height: auto; margin-top: 14px; border-radius: 10px; border: 1px solid var(--line); background: #fff; }
   .shots img { flex: 0 0 auto; width: 150px; height: auto; border-radius: 14px; border: 1px solid var(--line); display: block; }
   footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
 </style>
@@ -88,15 +89,18 @@
     <li>
       <h3><a href="https://supplier-resolver.onrender.com">Supplier Resolver</a></h3>
       <p>Groups messy supplier records into the real companies behind them. Entity resolution, the problem at the center of my supplier onboarding work at Infor Nexus.</p>
+      <img class="wide" src="img/resolver.webp" alt="Supplier Resolver merging four records for Golden Dragon Trading, with the evidence for the merge" width="960" height="738" loading="lazy">
     </li>
     <li>
       <h3><a href="https://ai-market-pulse.streamlit.app">AI Market Pulse</a></h3>
       <p>A dashboard that classifies news into market signals.</p>
+      <img class="wide" src="img/pulse.webp" alt="AI Market Pulse feed with items scored for signal" width="780" height="854" loading="lazy" style="max-width:300px">
       <p class="small">Hosted free; it may take a minute to wake up.</p>
     </li>
     <li>
       <h3><a href="https://adaptive-chinese-flashcards.streamlit.app">Adaptive Chinese Flashcards</a></h3>
       <p>Mandarin flashcards that adjust to what you get wrong.</p>
+      <img class="wide" src="img/flashcards.webp" alt="A Chinese flashcard after a correct pinyin answer, with meaning and radical" width="735" height="670" loading="lazy" style="max-width:280px">
       <p class="small">Hosted free; it may take a minute to wake up.</p>
     </li>
   </ul>
