@@ -57,9 +57,9 @@
   .projects h3 a:hover { text-decoration-thickness: 2px; }
   .projects p { margin: 0; color: var(--muted); }
   .projects .small { font-size: 14px; margin-top: 6px; }
-  .shots { display: flex; gap: 12px; margin-top: 14px; overflow-x: auto; padding-bottom: 4px; }
+  .shots { display: grid; grid-template-columns: repeat(3, minmax(0, 150px)); gap: 12px; margin-top: 14px; }
   .wide { display: block; width: 100%; max-width: 480px; height: auto; margin-top: 14px; border-radius: 10px; border: 1px solid var(--line); background: #fff; }
-  .shots img { flex: 0 0 auto; width: 150px; height: auto; border-radius: 14px; border: 1px solid var(--line); display: block; }
+  .shots img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--line); display: block; }
   footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
 </style>
 </head>
@@ -82,8 +82,8 @@
       <p style="margin-top:6px">I designed and built it: the app, the server and the AI that reads links, photos and bills.</p>
       <div class="shots">
         <img src="img/list.webp" alt="Nosh Next suggestions near you, each with a reason" width="150" height="325" loading="lazy">
-        <img src="img/map.webp" alt="Nosh Next map of saved and suggested places" width="150" height="325" loading="lazy">
         <img src="img/photo.webp" alt="Nosh Next finding a restaurant from a photo of its entrance" width="150" height="325" loading="lazy">
+        <img src="img/bill.webp" alt="Nosh Next listing the dishes read from a photo of the bill" width="150" height="325" loading="lazy">
       </div>
     </li>
     <li>
